@@ -18,7 +18,9 @@ jobs:
         run: |
           unzip -o lendingclub-credit-scorecard.zip
           rm lendingclub-credit-scorecard.zip
-          rm .github/workflows/unpack.yml
+
+          # 暂时不让机器人修改 workflow 文件
+          rm -f .github/workflows/tests.yml
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

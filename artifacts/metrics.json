@@ -1,0 +1,48 @@
+{
+  "train": {
+    "observations": 598649,
+    "bad_rate": 0.19538327133261726,
+    "auc": 0.7130685468973584,
+    "gini": 0.42613709379471687,
+    "ks": 0.30890518537820305,
+    "ks_probability_threshold": 0.2541456405362794,
+    "brier_score": 0.14495409977257873,
+    "log_loss": 0.4556386128235441,
+    "mean_predicted_pd": 0.24834978569222851
+  },
+  "validation": {
+    "observations": 293105,
+    "bad_rate": 0.23285853192541922,
+    "auc": 0.6927881055855762,
+    "gini": 0.3855762111711525,
+    "ks": 0.2745109388298111,
+    "ks_probability_threshold": 0.22185517150293516,
+    "brier_score": 0.16332449726601156,
+    "log_loss": 0.49960197513332655,
+    "mean_predicted_pd": 0.23285853193062325
+  },
+  "oot": {
+    "observations": 169321,
+    "bad_rate": 0.23132984095298278,
+    "auc": 0.6809937990386018,
+    "gini": 0.3619875980772036,
+    "ks": 0.2621543471013213,
+    "ks_probability_threshold": 0.2126758973238519,
+    "brier_score": 0.1654663255027011,
+    "log_loss": 0.5049349044396035,
+    "mean_predicted_pd": 0.22723808187188638
+  },
+  "stability": {
+    "development_to_oot_score_psi": 0.0225013098807667
+  },
+  "score_scaling": {
+    "base_score": 600,
+    "pdo": 50,
+    "base_odds_good_to_bad": 20,
+    "factor": 72.13475204444818,
+    "offset": 383.9035952556319,
+    "base_points": 461.36196697397025,
+    "max_reconciliation_error": 4.547473508864641e-13,
+    "validation_intercept_calibration_shift": 0.34331756683968706
+  }
+}

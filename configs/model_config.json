@@ -1,0 +1,80 @@
+{
+  "data": {
+    "url": "https://bigblue.depaul.edu/jlee141/econdata/LendingClub_LoanData/LendingClub_2007_to_2018Q4.csv",
+    "filename": "LendingClub_2007_to_2018Q4.csv",
+    "md5": "40d0463a883c602e3732b5f821a3dac7",
+    "original_catalog": "https://www.kaggle.com/datasets/wordsforthewise/lending-club",
+    "data_dictionary": "https://bigblue.depaul.edu/jlee141/econdata/LendingClub_LoanData/LC_DataDictionary.xlsx",
+    "governed_subset_doi": "10.5281/zenodo.11295916"
+  },
+  "split": {
+    "train_start": "2014-01-01",
+    "train_end": "2015-12-31",
+    "validation_start": "2016-01-01",
+    "validation_end": "2016-12-31",
+    "oot_start": "2017-01-01",
+    "oot_end": "2017-12-31",
+    "excluded_after": "2017-12-31"
+  },
+  "features": {
+    "continuous": [
+      "annual_inc",
+      "dti",
+      "loan_amnt",
+      "fico_n",
+      "loan_to_income",
+      "credit_history_months",
+      "delinq_2yrs",
+      "inq_last_6mths",
+      "open_acc",
+      "pub_rec",
+      "revol_bal",
+      "revol_util",
+      "total_acc",
+      "collections_12_mths_ex_med",
+      "mths_since_last_major_derog",
+      "acc_open_past_24mths",
+      "avg_cur_bal",
+      "bc_open_to_buy",
+      "bc_util",
+      "mort_acc",
+      "mths_since_recent_inq",
+      "num_accts_ever_120_pd",
+      "num_actv_rev_tl",
+      "num_tl_90g_dpd_24m",
+      "pct_tl_nvr_dlq",
+      "percent_bc_gt_75",
+      "pub_rec_bankruptcies",
+      "total_bal_ex_mort",
+      "total_bc_limit"
+    ],
+    "categorical": ["term", "emp_length", "home_ownership", "purpose", "application_type"],
+    "target": "Default"
+  },
+  "cleaning": {
+    "winsor_lower": 0.005,
+    "winsor_upper": 0.995
+  },
+  "binning": {
+    "max_prebins": 10,
+    "min_bin_fraction": 0.03,
+    "rare_category_fraction": 0.01,
+    "smoothing": 0.5
+  },
+  "selection": {
+    "min_iv": 0.02,
+    "max_iv": 0.5,
+    "max_abs_correlation": 0.7,
+    "max_features": 15
+  },
+  "model": {
+    "candidate_c": [0.01, 0.1, 1.0, 10.0],
+    "max_iter": 1000,
+    "random_state": 42
+  },
+  "score": {
+    "base_score": 600,
+    "pdo": 50,
+    "base_odds_good_to_bad": 20
+  }
+}

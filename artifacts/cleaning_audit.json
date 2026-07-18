@@ -1,0 +1,26 @@
+{
+  "raw_rows": 2260701,
+  "final_status_rows": 1345350,
+  "status_counts": {
+    "Fully Paid": 1076751,
+    "Current": 878317,
+    "Charged Off": 268559,
+    "In Grace Period": 8436,
+    "Late (31-120 days)": 21467,
+    "Late (16-30 days)": 4349,
+    "Default": 40,
+    "__MISSING__": 33,
+    "Does not meet the credit policy. Status:Fully Paid": 1988,
+    "Does not meet the credit policy. Status:Charged Off": 761
+  },
+  "rows_loaded": 1345350,
+  "duplicate_ids": 0,
+  "invalid_dates": 0,
+  "invalid_targets": 0,
+  "invalid_annual_inc": 361,
+  "invalid_dti": 2,
+  "invalid_loan_amnt": 0,
+  "invalid_fico_n": 0,
+  "rows_after_basic_clean": 1345350,
+  "overall_bad_rate": 0.19964990522912254
+}

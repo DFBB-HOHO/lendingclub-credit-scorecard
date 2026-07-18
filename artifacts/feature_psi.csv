@@ -1,0 +1,16 @@
+feature,psi,status
+percent_bc_gt_75,0.10818794102968894,watch
+bc_open_to_buy,0.08634245390567424,stable
+loan_to_income,0.04990925637476911,stable
+loan_amnt,0.04052908125206627,stable
+fico_n,0.0375061917792346,stable
+num_actv_rev_tl,0.032650277591858734,stable
+mort_acc,0.020077103011409372,stable
+acc_open_past_24mths,0.015796379954038656,stable
+annual_inc,0.011923652947142989,stable
+home_ownership,0.00998590058957159,stable
+dti,0.009970780133064006,stable
+avg_cur_bal,0.006341001271106978,stable
+inq_last_6mths,0.006141043875721281,stable
+mths_since_recent_inq,0.0025248283023642914,stable
+term,0.0011865914336672862,stable

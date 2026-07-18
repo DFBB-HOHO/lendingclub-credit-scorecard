@@ -1,0 +1,122 @@
+{
+  "lower_quantile": 0.005,
+  "upper_quantile": 0.995,
+  "bounds": {
+    "annual_inc": [
+      15047.6298828125,
+      317373.75
+    ],
+    "dti": [
+      1.5,
+      38.880001068115234
+    ],
+    "loan_amnt": [
+      1400.0,
+      35000.0
+    ],
+    "fico_n": [
+      662.0,
+      807.0
+    ],
+    "loan_to_income": [
+      0.0223214291036129,
+      0.5
+    ],
+    "credit_history_months": [
+      42.0,
+      522.0
+    ],
+    "delinq_2yrs": [
+      0.0,
+      5.0
+    ],
+    "inq_last_6mths": [
+      0.0,
+      5.0
+    ],
+    "open_acc": [
+      3.0,
+      32.0
+    ],
+    "pub_rec": [
+      0.0,
+      3.0
+    ],
+    "revol_bal": [
+      110.0,
+      137992.36000000057
+    ],
+    "revol_util": [
+      0.800000011920929,
+      100.0
+    ],
+    "total_acc": [
+      5.0,
+      66.0
+    ],
+    "collections_12_mths_ex_med": [
+      0.0,
+      1.0
+    ],
+    "mths_since_last_major_derog": [
+      2.0,
+      85.0
+    ],
+    "acc_open_past_24mths": [
+      0.0,
+      16.0
+    ],
+    "avg_cur_bal": [
+      356.0,
+      87702.3671875
+    ],
+    "bc_open_to_buy": [
+      0.0,
+      85579.4140625
+    ],
+    "bc_util": [
+      0.0,
+      102.19999694824219
+    ],
+    "mort_acc": [
+      0.0,
+      9.0
+    ],
+    "mths_since_recent_inq": [
+      0.0,
+      23.0
+    ],
+    "num_accts_ever_120_pd": [
+      0.0,
+      8.0
+    ],
+    "num_actv_rev_tl": [
+      1.0,
+      19.0
+    ],
+    "num_tl_90g_dpd_24m": [
+      0.0,
+      3.0
+    ],
+    "pct_tl_nvr_dlq": [
+      57.0,
+      100.0
+    ],
+    "percent_bc_gt_75": [
+      0.0,
+      100.0
+    ],
+    "pub_rec_bankruptcies": [
+      0.0,
+      2.0
+    ],
+    "total_bal_ex_mort": [
+      1799.0,
+      287692.2800000005
+    ],
+    "total_bc_limit": [
+      0.0,
+      120000.0
+    ]
+  }
+}

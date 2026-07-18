@@ -1,0 +1,20 @@
+# Data and generated artifacts
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+artifacts/*.joblib
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter / editors / OS
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
